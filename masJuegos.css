@@ -1,0 +1,236 @@
+body{ 
+    
+     background-image: linear-gradient(rgba(21, 111, 255, 0.671), rgba(185, 0, 195, 0.774)), url("https://mario.nintendo.com/static/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png");
+     
+   
+    
+}
+
+
+body>header>div{
+    background-color: var(--background-red);
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    padding:  0 30px;
+}    
+body>header>div>img{
+    width: 8em;
+    height: 4em; 
+    
+    
+}
+
+
+
+.header__nav{
+    background:  repeating-linear-gradient(-45deg,#302f2f,#302f2f 6px,#2a2929 0,#2a2929 12px);;
+    width:100%;
+    top:8vh;
+    height: 8vh;
+    position: fixed;
+         
+}
+.nav__ul{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+       
+    }
+.ul__li__nav{
+    width:15vh;
+    border: 1.2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin:4px;
+    padding: 2px;
+    transition: 0.5s;
+    
+}
+.ul__li__nav:hover{
+    background-color: #e60012;
+    transition: 0.5s;
+    
+}
+.ul__li__nav:nth-child(1){
+    
+    width:4rem;
+    height: 2rem;
+    
+}
+.ul__li__nav:nth-child(2){
+    width:6.5rem;
+    height: 2rem;
+    
+}
+.ul__li__nav:nth-child(3){
+    width:5rem;
+    height: 2rem;
+    
+}
+.ul__li__nav:nth-child(4){
+    width:6rem;
+    height: 2rem;
+}
+
+.ul__li__nav>a{
+color: white;
+}
+
+.nav__ul :hover{
+color: white;
+transition: 0.5s;
+}
+
+body>main>h1{
+    background-color: var(--background-red);
+    color: var(--text-color) ;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    padding: 0, 100%;
+    align-items: end;
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+}
+
+
+
+body>main>section>ul{
+    
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+    height: 80vh;
+    width: 100%;
+    /* padding:  20px; */
+    
+    row-gap: 1em;   
+    column-gap: 3rem; 
+}
+
+body>main>section>ul>li{
+    background-image: var(--background-color-boxes);
+    display: flex;
+    
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    width: 20vw;
+    height: 32vh;
+    border-radius: 15px;
+    list-style-type: none;
+    
+    
+    padding: 20px 20px 2px 20px ;
+}
+
+
+body>main>section>ul>li>div{
+    
+    
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+section>ul>li>div>img{
+    
+    margin: 1px 1px 0 1px;
+    width: 100%;
+    height: 45%;
+
+}
+section>ul>li>div>div>a>h2{
+    color: rgb(188, 187, 187);
+    font-weight: var(--font-weight-bold);
+}
+section>ul>li>div>div>p>a{
+    color: rgb(188, 187, 187);
+    
+}
+section>ul>li>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    
+    padding: 5px;
+   height: 100%;
+   width: 100%;
+   row-gap: 0;
+   
+}
+
+section>ul>li>div>div>button{
+    border: 2px solid transparent;
+    background-color:rgb(230, 9, 9);
+
+    height: 3vh;
+    width: 100%;
+    border-radius: 15px;
+    transition: background-color 0.3s,  border-color 0.3s, transform 0.5s ;
+}
+section>ul>li>div>div>button:hover{
+    background-color: #fff;
+    transform: translatex(10px);
+    
+    
+
+
+}
+
+section>ul>li>div>div>button>a{
+    color: #fff;
+    
+    transition: color 0.3s ;
+
+}
+section>ul>li>div>div>button>a:hover{
+    color: black;
+    
+}
+
+.cuadrado{
+    width:20vw;
+    height: 50vh;
+    margin-top: 2vh;
+}
+.primero{
+    margin-top: 3.5vh;
+}
+.footerpablo{
+    margin-top: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+:root{
+
+    font-family: 'Catamaran', sans-serif;
+    --font-weigth-regular: 300;
+    --font-weight-medium:500;
+    --font-weight-bold:700;
+    box-sizing: border-box;
+    max-width: 100%;
+
+     
+    --gradient-buttons: linear-gradient(0deg,#bc0000,#e23232);  
+    
+    --background-color-boxes: repeating-linear-gradient(-45deg,#302f2f,#302f2f 6px,#2a2929 0,#2a2929 12px);
+
+    --background-red: #e60012;
+    --text-color : #ffff
+    
+
+}
+
+*,
+*::before,
+*::after{
+    
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: inherit;
+    text-decoration: none;
+}

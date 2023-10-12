@@ -1,0 +1,31 @@
+:root {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-image: url('https://mario.nintendo.com/static/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png');
+    --redTrans-Mario: rgba(228, 3, 29, 0.75) ;
+    --redSolid-Mario: rgba(228, 3, 29) ;   
+    --purpleTrans-Mario: rgba(119, 3, 228, 0.75) ;    
+    --purpleSolid-Mario: rgba(119, 3, 228) ;   
+    --blackTrans-Mario: rgba(0, 0, 0, 0.75);
+    --blackTrans-Mario: rgba(0, 0, 0);
+    --whiteSolid-Mario:white;
+    --gradient-blue-purple: linear-gradient(0deg,#bc00b7,#23b2ff);
+    --background-color-boxes: repeating-linear-gradient(-45deg,#302f2f,#302f2f 6px,#2a2929 0,#2a2929 12px);
+    text-decoration: none; 
+    color: inherit;
+    list-style: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: inherit;
+    text-decoration: none; 
+    color: inherit;
+    list-style: none;
+}

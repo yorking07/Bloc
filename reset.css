@@ -1,0 +1,22 @@
+:root {
+    font-family: 'Catamaran', sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+    --button-color: #8E7BEF;
+    --text-dark: #222222;
+    --highligth-color: #FCDA68;
+    --text-secondary: #423F40;
+    --background-color: #fff;
+    --background-color-secondary: #F9F5F2;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: inherit;
+    text-decoration: none;
+  }

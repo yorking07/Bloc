@@ -1,0 +1,459 @@
+:root{
+    box-sizing: border-box;
+    background-color: #e60012;
+    background-image: url('https://mario.nintendo.com/static/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png' );
+    background-repeat: repeat;
+    color: white;
+    margin: 0%;
+    padding: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.titulo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   margin-top: 0;
+    color: white;
+    font-size: xxx-large;
+}
+
+.texto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.main__div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.buttons {
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 0;
+    list-style-type: none;
+    border: none;
+    
+    margin-top: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.img__1985{ 
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 225px;
+    padding: 0px;
+    background-color: white;
+   
+    border:solid 4px transparent;
+  border-radius: 5%;
+  box-shadow: black 5px 10px 10px;
+}
+
+.img__1985:hover{
+    border: solid blue;
+    opacity: 0.8;
+}
+
+.img__1988{ 
+    
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 225px;
+    padding: 0px;
+    background-color: white;
+   
+    border:solid 4px transparent;
+  border-radius: 5%;
+  box-shadow: black 5px 10px 10px;
+}
+
+
+.img__1988:hover{
+    border: solid blue;
+    opacity: 0.8;
+}
+
+.img__1989{ 
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 225px;
+    padding: 0px;
+    background-color: white;
+    
+    border:solid 4px transparent;
+  border-radius: 5%;
+  box-shadow: black 5px 10px 10px;
+}
+
+.img__1989:hover{
+    border: solid blue;
+    opacity: 0.8;
+}
+
+.img__1990{ 
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 225px;
+    padding: 0px;
+    background-color: white;
+    
+    border:solid 4px transparent;
+  border-radius: 5%;
+  box-shadow: black 5px 10px 10px;
+}
+
+.img__1990:hover{
+    border: solid blue;
+    opacity: 0.8;
+}
+    
+.img__1991{ 
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 225px;
+    padding: 0px;
+    background-color: white;
+   
+  border:solid 4px transparent;
+  border-radius: 5%;
+  box-shadow: black 5px 10px 10px;
+}
+
+.img__1991:hover{
+    border: solid blue;
+    opacity: 0.8;
+}
+
+.img__1992{ 
+    display: flex;
+    justify-content: center;
+    width: 268px;
+    height: 225px;
+    padding: 0px;
+    background-color: white;
+   
+    border:solid 4px transparent;
+  border-radius: 5%;
+  box-shadow: black 5px 10px 10px;
+}
+
+.img__1992:hover{
+    border: solid blue;
+    opacity: 0.8;
+}
+
+
+.contenedor__supermario{
+    margin-top: 9%;
+    list-style-type: none;
+    
+    display: flex;
+    background-color: white;
+   background-image: url('https://mario.nintendo.com/static/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png' )
+}
+.texto__supermario {
+    display: flex;
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    font-size: large;
+    margin: 6%;
+    box-shadow: #e60012 5px 5px 5px 5px ;
+    flex-direction: column;
+    align-items: center;
+   padding: 15px;
+}
+.imagenes__supermario{
+    max-width: 100%;
+    height: 25%;
+    width: 50%;
+    margin: 6%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+   grid-template-rows: 2fr;
+    gap: 10px;
+    
+}
+.imagenes__supermario1{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+    margin-top: 20px;
+}
+.imagenes__supermario2{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+    
+}
+.imagenes__supermario3{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+    margin-top: 20px;
+}
+.imagenes__supermario4{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+    
+}
+
+
+
+.contenedor__supermariobros2{
+    
+      margin-top: 1%;
+    list-style-type: none;
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+     flex-direction: row-reverse;
+    
+
+}
+
+.texto__supermariobros2{
+    background-color: white;
+    display: flex;
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    font-size: large;
+    margin: 6%;
+    box-shadow: #000000 5px 5px 5px 5px ;
+    flex-direction: column;
+    align-items: center;
+   padding: 15px;
+
+}
+.imagen1__supermariobros2{
+    height: 750px;
+    width: 600px;
+    
+}
+.contenedor__supermarioland{
+    display: flex;
+    background-color: white;
+    background-image: url('https://mario.nintendo.com/static/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png' );
+    gap: 5rem;
+}
+.texto__supermarioland{
+     background-color: white;
+    display: flex;
+    border-radius: 5%;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    font-size: large;
+    margin: 6%;
+    box-shadow: #e60012 5px 5px 5px 5px ;
+    flex-direction: column;
+    align-items: center;
+   padding: 15px;
+}
+.imagen1__supermarioland{
+    height: 450px;
+    width: 600px;
+    border-radius: 5%;
+    margin-top: 7rem;
+    
+}
+.contenedor__supermariobros3{
+    margin-top: 1%;
+    list-style-type: none;
+    display: flex;
+     justify-content: space-evenly;
+    align-items: center;
+     flex-direction: row-reverse;
+}
+.texto__supermariobros3{
+    display: flex;
+    color: white;
+    width: 30%;
+    font-size: large;
+    margin: 6%;
+    flex-direction: column;
+    align-items: center;
+   padding: 15px;
+
+}
+.contenedor__supermarioworld{
+    display: grid;
+    background-color: white;
+   justify-items: center;
+    background-image: url('https://mario.nintendo.com/static/pattern-logos-characters-bd1f26898b2027c98ce8ba17c084f523.png' );
+    padding: 0;
+    width: 100%;
+}
+.texto__supermarioworld{
+    display: flex;
+    color: white;
+    width: 80%;
+    font-size: large;
+    margin: 6%;
+    flex-direction: column;
+    align-items: center;
+   padding: 15px;
+   color: black;
+   font-weight: 500;
+}
+.imagenes__supermarioworld{
+    display: flex;
+}
+.contenedor__smarioland2__6coins{
+    margin-top: 9%;
+    list-style-type: none;
+    display: flex;
+}
+.texto__smarioland2__6coins{
+display: flex;
+border-radius: 5%;
+color: black;
+width: 30%;
+font-size: large;
+margin: 6%;
+box-shadow: black 5px 5px 5px 5px ;
+flex-direction: column;
+align-items: center;
+padding: 22px;
+background-color: white;
+}
+
+.imagenes__smarioland2__6coins{
+    max-width: 100%;
+    height: 25%;
+    width: 50%;
+    margin: 6%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+   grid-template-rows: 2fr;
+    gap: 10px;
+}
+.imagen1__smarioland2__6coins{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+    margin-top: 20px;
+}
+.imagen2__smarioland2__6coins{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+}
+.imagen3__smarioland2__6coins{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+    margin-top: 20px;
+}
+.imagen4__smarioland2__6coins{
+    border:solid 2px #e60012;
+    border-radius: 5%;
+    box-shadow: black 5px 5px 10px ;
+}
+
+.body__header{
+    width: 100%;
+    height: 16vh;
+    z-index: 8;
+    padding: 0;
+}
+.header__div{
+    
+    display: flex;
+    width: 100%;
+    height:8vh ;
+    padding: 25px;
+    background: #e60012;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 7;
+    height: 50px;
+    top: 0;
+    left: 0;
+
+}
+
+
+.header__nav{
+    background:  repeating-linear-gradient(-45deg,#302f2f,#302f2f 6px,#2a2929 0,#2a2929 12px);;
+    width:100%;
+    top:8vh;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    z-index: 7;
+
+}
+.nav__ul{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+       
+    }
+.ul_li_nav{
+    width:15vh;
+    border: 1.2px solid white;
+    border-radius: 15%;
+    text-align: center;
+    margin:4px;
+    padding: 2px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    list-style-type: none;
+    
+}
+.ul_li_nav1{
+    color: white;
+    text-decoration: none;
+}
+.ul_li_nav:hover{
+    background-color: #e60012;
+    transition: 0.5s;
+    
+}
+.ul_li_nav:nth-child(1){
+    
+    width:4rem;
+    height: 2rem;
+    
+}
+.nintendo{
+    height: 30px;
+}
+
+
+
+
+
+
